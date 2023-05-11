@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtividadeDeTreinoPRJ", "AtividadeDeTreinoPRJ\AtividadeDeTreinoPRJ.csproj", "{77F8CFC8-788A-416C-B4AC-4EBD58DDB53D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtividadeDeTreinoPRJ", "AtividadeDeTreinoPRJ\AtividadeDeTreinoPRJ.csproj", "{77F8CFC8-788A-416C-B4AC-4EBD58DDB53D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculadoraPRJ", "calculadoraPRJ\calculadoraPRJ.csproj", "{39A2D48F-A3FA-4A11-8BC8-652B564050E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculadoraPRJ", "calculadoraPRJ\calculadoraPRJ.csproj", "{39A2D48F-A3FA-4A11-8BC8-652B564050E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "passouOUnãoESCOLA_PRJ", "passouOUnãoESCOLA_PRJ\passouOUnãoESCOLA_PRJ.csproj", "{60178F34-2304-416A-807A-594E8D06DE5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{39A2D48F-A3FA-4A11-8BC8-652B564050E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39A2D48F-A3FA-4A11-8BC8-652B564050E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39A2D48F-A3FA-4A11-8BC8-652B564050E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60178F34-2304-416A-807A-594E8D06DE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60178F34-2304-416A-807A-594E8D06DE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60178F34-2304-416A-807A-594E8D06DE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60178F34-2304-416A-807A-594E8D06DE5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

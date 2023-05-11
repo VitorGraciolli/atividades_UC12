@@ -86,7 +86,8 @@
             NUDnumeros.Maximum = new decimal(new int[] { -1486618624, 232830643, 0, 0 });
             NUDnumeros.Name = "NUDnumeros";
             NUDnumeros.Size = new Size(268, 23);
-            NUDnumeros.TabIndex = 6;
+            NUDnumeros.TabIndex = 0;
+            NUDnumeros.Tag = "0";
             // 
             // Form1
             // 

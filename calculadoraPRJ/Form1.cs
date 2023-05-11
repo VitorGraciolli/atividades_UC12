@@ -38,6 +38,11 @@ namespace calculadoraPRJ
             primeironumero = NUDprimeironumero.Value;
             segundonumero = NUDsegundonumero.Value;
 
+            textBox1.Clear();
+            NUDprimeironumero.Focus();
+
+
+
             if (radiomais.Checked == true)
             {
                 valortotal = primeironumero + segundonumero;
@@ -63,7 +68,7 @@ namespace calculadoraPRJ
                 if (NUDprimeironumero.Value == 0 || NUDsegundonumero.Value == 0)
                 {
                     mensagem = "numero para divisão invalido ";
-                    
+
                 }
                 else
                 {

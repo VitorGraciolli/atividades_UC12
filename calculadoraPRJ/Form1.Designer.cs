@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            NUDprimeironumero = new NumericUpDown();
             NUDsegundonumero = new NumericUpDown();
             textBox1 = new TextBox();
             label1 = new Label();
@@ -40,30 +39,24 @@
             radiodivisao = new RadioButton();
             label3 = new Label();
             button1 = new Button();
-            ((System.ComponentModel.ISupportInitialize)NUDprimeironumero).BeginInit();
+            NUDprimeironumero = new NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)NUDsegundonumero).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)NUDprimeironumero).BeginInit();
             SuspendLayout();
-            // 
-            // NUDprimeironumero
-            // 
-            NUDprimeironumero.Location = new Point(158, 135);
-            NUDprimeironumero.Maximum = new decimal(new int[] { -1486618624, 232830643, 0, 0 });
-            NUDprimeironumero.Name = "NUDprimeironumero";
-            NUDprimeironumero.Size = new Size(268, 23);
-            NUDprimeironumero.TabIndex = 7;
             // 
             // NUDsegundonumero
             // 
-            NUDsegundonumero.Location = new Point(158, 192);
+            NUDsegundonumero.Location = new Point(216, 148);
             NUDsegundonumero.Maximum = new decimal(new int[] { -1486618624, 232830643, 0, 0 });
             NUDsegundonumero.Name = "NUDsegundonumero";
             NUDsegundonumero.Size = new Size(268, 23);
-            NUDsegundonumero.TabIndex = 8;
+            NUDsegundonumero.TabIndex = 1;
+            NUDsegundonumero.Tag = "1";
             // 
             // textBox1
             // 
             textBox1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(283, 384);
+            textBox1.Location = new Point(341, 340);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(168, 33);
             textBox1.TabIndex = 9;
@@ -81,7 +74,7 @@
             // primeirooperando
             // 
             primeirooperando.AutoSize = true;
-            primeirooperando.Location = new Point(35, 135);
+            primeirooperando.Location = new Point(93, 91);
             primeirooperando.Name = "primeirooperando";
             primeirooperando.Size = new Size(109, 15);
             primeirooperando.TabIndex = 11;
@@ -91,7 +84,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(33, 194);
+            label2.Location = new Point(91, 150);
             label2.Name = "label2";
             label2.Size = new Size(111, 15);
             label2.TabIndex = 12;
@@ -101,7 +94,7 @@
             // 
             radiomais.AutoSize = true;
             radiomais.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            radiomais.Location = new Point(171, 241);
+            radiomais.Location = new Point(229, 197);
             radiomais.Name = "radiomais";
             radiomais.Size = new Size(48, 36);
             radiomais.TabIndex = 13;
@@ -113,7 +106,7 @@
             // 
             radiomenos.AutoSize = true;
             radiomenos.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            radiomenos.Location = new Point(232, 241);
+            radiomenos.Location = new Point(290, 197);
             radiomenos.Name = "radiomenos";
             radiomenos.Size = new Size(42, 36);
             radiomenos.TabIndex = 14;
@@ -125,7 +118,7 @@
             // 
             radiovezes.AutoSize = true;
             radiovezes.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            radiovezes.Location = new Point(294, 241);
+            radiovezes.Location = new Point(352, 197);
             radiovezes.Name = "radiovezes";
             radiovezes.Size = new Size(43, 36);
             radiovezes.TabIndex = 15;
@@ -137,7 +130,7 @@
             // 
             radiodivisao.AutoSize = true;
             radiodivisao.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            radiodivisao.Location = new Point(352, 241);
+            radiodivisao.Location = new Point(410, 197);
             radiodivisao.Name = "radiodivisao";
             radiodivisao.Size = new Size(41, 36);
             radiodivisao.TabIndex = 16;
@@ -149,7 +142,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(114, 381);
+            label3.Location = new Point(172, 337);
             label3.Name = "label3";
             label3.Size = new Size(118, 32);
             label3.TabIndex = 17;
@@ -158,7 +151,7 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(158, 307);
+            button1.Location = new Point(216, 263);
             button1.Name = "button1";
             button1.Size = new Size(226, 43);
             button1.TabIndex = 18;
@@ -166,11 +159,21 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // NUDprimeironumero
+            // 
+            NUDprimeironumero.Location = new Point(216, 91);
+            NUDprimeironumero.Maximum = new decimal(new int[] { -1486618624, 232830643, 0, 0 });
+            NUDprimeironumero.Name = "NUDprimeironumero";
+            NUDprimeironumero.Size = new Size(268, 23);
+            NUDprimeironumero.TabIndex = 0;
+            NUDprimeironumero.Tag = "0";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(642, 489);
+            Controls.Add(NUDprimeironumero);
             Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(radiodivisao);
@@ -182,19 +185,16 @@
             Controls.Add(label1);
             Controls.Add(textBox1);
             Controls.Add(NUDsegundonumero);
-            Controls.Add(NUDprimeironumero);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)NUDprimeironumero).EndInit();
             ((System.ComponentModel.ISupportInitialize)NUDsegundonumero).EndInit();
+            ((System.ComponentModel.ISupportInitialize)NUDprimeironumero).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private NumericUpDown NUDprimeironumero;
         private NumericUpDown NUDsegundonumero;
         private TextBox textBox1;
         private Label label1;
@@ -206,5 +206,6 @@
         private RadioButton radiodivisao;
         private Label label3;
         private Button button1;
+        private NumericUpDown NUDprimeironumero;
     }
 }

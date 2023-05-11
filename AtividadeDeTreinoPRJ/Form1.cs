@@ -16,11 +16,13 @@ namespace AtividadeDeTreinoPRJ
             decimal ValorTotal;
             string mensagem;
 
+            mensagem = "WU";
 
-            mensagem = "eu";
+            NUDnumeros.Focus();
 
             if (NUDnumeros.Value == 0)
             {
+                NUDnumeros.Focus();
 
                 mensagem = "preencha os dados corretamente";
 
@@ -28,18 +30,22 @@ namespace AtividadeDeTreinoPRJ
             else if (NUDnumeros.Value > 0)
             {
 
+
                 real = NUDnumeros.Value;
 
                 if (RADIOdólar.Checked == true)
                 {
-
+                    NUDnumeros.Focus();
                     ValorTotal = real * 0.20m;
                     mensagem = "o valor convertido para Dólar é " + ValorTotal;
                     MessageBox.Show(mensagem, "aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
+
                 }
                 else if (RADIOeuro.Checked == true)
                 {
+                    NUDnumeros.Focus();
+
                     ValorTotal = real * 0.18m;
                     mensagem = "o valor convertido para Euros é " + ValorTotal;
                     MessageBox.Show(mensagem, "aviso!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
