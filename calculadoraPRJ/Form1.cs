@@ -85,5 +85,10 @@ namespace calculadoraPRJ
 
 
         }
+
+        private void radiomenos_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

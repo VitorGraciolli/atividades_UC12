@@ -31,6 +31,7 @@ namespace passouOUnãoESCOLA_PRJ
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             int faltas;
             string mensagem;
             decimal valortotal;
@@ -76,7 +77,7 @@ namespace passouOUnãoESCOLA_PRJ
 
 
             }
-
+            
 
 
 

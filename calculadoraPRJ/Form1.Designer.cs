@@ -113,6 +113,7 @@
             radiomenos.TabStop = true;
             radiomenos.Text = "-";
             radiomenos.UseVisualStyleBackColor = true;
+            radiomenos.CheckedChanged += radiomenos_CheckedChanged;
             // 
             // radiovezes
             // 

@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtividadeDeTreinoPRJ", "Ati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculadoraPRJ", "calculadoraPRJ\calculadoraPRJ.csproj", "{39A2D48F-A3FA-4A11-8BC8-652B564050E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "passouOUnãoESCOLA_PRJ", "passouOUnãoESCOLA_PRJ\passouOUnãoESCOLA_PRJ.csproj", "{60178F34-2304-416A-807A-594E8D06DE5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "passouOUnãoESCOLA_PRJ", "passouOUnãoESCOLA_PRJ\passouOUnãoESCOLA_PRJ.csproj", "{60178F34-2304-416A-807A-594E8D06DE5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculodesalarioPRJ", "calculodesalarioPRJ\calculodesalarioPRJ.csproj", "{B5F09F3E-1F2A-42EF-9C9A-0682DD20833C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{60178F34-2304-416A-807A-594E8D06DE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60178F34-2304-416A-807A-594E8D06DE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60178F34-2304-416A-807A-594E8D06DE5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F09F3E-1F2A-42EF-9C9A-0682DD20833C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F09F3E-1F2A-42EF-9C9A-0682DD20833C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F09F3E-1F2A-42EF-9C9A-0682DD20833C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F09F3E-1F2A-42EF-9C9A-0682DD20833C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
